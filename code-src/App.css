@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center ;
+  flex-direction: column;
+}
+.counter {
+  color: white;
+}
+.start {
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: green;
+  border: transparent;
+  cursor: pointer;
+  font-family: monospace;
+}
+.stop {
+  background-color: brown;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border: transparent;
+  cursor: pointer;
+  font-family: monospace;
+}
+.reset {
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: cyan;
+  border: transparent;
+  cursor: pointer;
+  font-family: monospace;
+}
+.minute {
+  color: white;
+}
+.second {
+  color: white;
+}
+.mill {
+  color: white;
+}
+.timer {
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
