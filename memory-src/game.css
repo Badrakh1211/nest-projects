@@ -1,0 +1,30 @@
+.choose {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 40px;
+}
+.option{
+    font-family: monospace;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 50px;
+    cursor: pointer;
+}
+.title {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.dif{
+    font-size: 50px;
+}
+.op {
+    font-family: monospace;
+    margin-left: 10%;
+    font-size: 30px;
+}

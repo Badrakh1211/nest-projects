@@ -1,0 +1,6 @@
+.cards-hard {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    padding-right: 380px;
+}

@@ -1,0 +1,39 @@
+.start-game {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.ready {
+    font-family: monospace;
+    font-size: 30px;
+    height: 60px;
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.cards {
+    height: 500px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.back {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.front {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+.moves {
+    margin-left: 50px;
+}
