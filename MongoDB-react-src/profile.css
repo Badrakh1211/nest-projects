@@ -1,0 +1,56 @@
+.your-page {
+    width: 100%;
+    padding-left: 40vh;
+    height: 100vh;
+    background-color: #1b1b1b;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+} 
+.second {
+    border: 1px solid white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.main {
+    border: 1px solid white;
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+}
+
+.def2 { 
+     width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    border: 1px solid white;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.your-name {
+    color: white;
+    margin-left: 50px;
+}
+
+.post-section {
+    border: 1px solid white;
+}
+.protect {
+    display: flex;
+    margin-top: 20%;
+}
+.add-post {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-top: 30%;
+    cursor: pointer;
+    background-color: #1b1b1b;
+    color: white;
+}

@@ -1,0 +1,207 @@
+.navbar {
+  width: 40vh;
+  height: 100vh;
+  background-color: #000000;
+  position: fixed;
+}
+
+.insta {
+  width: 70%;
+  fill: white;
+  margin-top: 100px;
+  margin-left: 15%;
+}
+
+.profile {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.pfp {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid white;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.low {
+  display: flex;
+  gap: 20px;
+  margin-top: 10%;
+}
+
+.Home {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.svg {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  margin-left: 25%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+}
+
+.biggest {
+  display: flex;
+}
+
+.posts-container {
+  padding-left: 40vh;
+  width: 100%;
+  height: 200vh;
+  height: fit-content;
+  background-color: #1b1b1b;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.box3 {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-template-rows: 1fr;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.post {
+  border: 2px solid white;
+  width: 90%;
+  height: 650px;
+  margin-top: 50px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 6fr 2fr;
+}
+
+.owner {
+  display: flex;
+  align-items: center;
+}
+
+.owner-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.like {
+  fill: white;
+  width: 35px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.liked {
+  fill: red;
+  width: 35px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.likes {
+  color: white;
+  margin-left: 30px;
+}
+
+.comment {
+  width: 80%;
+  background: #1b1b1b;
+  color: gray;
+  border: 1px solid white;
+  height: 30px;
+  border: transparent;
+  margin-left: 20px;
+}
+
+.add {
+  position: absolute;
+  height: 33px;
+  width: 55px;
+  cursor: pointer;
+  border: 0px solid transparent;
+  background-color: #1b1b1b;
+  color: rgb(48, 48, 198);
+}
+
+.com {
+  color: grey;
+  margin-left: 30px;
+}
+
+.pfps {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.usernames {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.view {
+  width: 100%;
+  height: 100%;
+}
+
+.descs {
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}
+
+.suggest {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.def {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.pfp1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.yourname {
+  color: white;
+  font-size: 30px;
+  margin-top: 60px;
+  margin-left: 30px;
+}

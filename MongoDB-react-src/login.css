@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.Sign{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.user{
+    width: 40%;
+    height: 20px;
+    margin-top: 20px;
+}
+.pass {
+    width: 40%;
+    height: 20px;
+    margin-top: 10px;
+}
+.word{
+    width: 50%;
+    margin-top: 50px;
+}
+.signin {
+    margin-top: 20px;
+    background-color: blue;
+    width: 30%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px transparent;
+}
+.store{
+    width: 40%;
+    margin-top: 40px;
+}
+.signin {
+    color: white;
+    cursor: pointer;
+}
