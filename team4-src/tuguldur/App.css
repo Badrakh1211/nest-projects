@@ -1,0 +1,637 @@
+.home {
+    background-image: url(../assets/homeBackground.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+  }
+  .logo {
+    background-image: url(../assets/teamLogo.svg);
+    width: 85px;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+  }
+  .top {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    /* margin-top: 30px; */
+  }
+  .button1 {
+    font-style: normal;
+    color: white;
+    margin-left: 900px;
+    text-decoration: underline;
+  }
+  .button2 {
+    font-style: normal;
+    color: white;
+    margin-left: 35px;
+    text-decoration: underline;
+  }
+  .button3 {
+    height: 56px;
+    width: 128px;
+    background-color: rgb(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white 1px solid;
+    color: white;
+    border-radius: 3px;
+    margin-left: 40px;
+  }
+  .text1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+  .text2 {
+      color: white;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 100px;
+    }
+  .bottom{
+      margin-top: 60px;
+  }
+  .input{
+      height: 45px;
+      width: 270px;
+      margin-left: 100px;
+  }
+  .button4{
+      background-color: #0BBEF2;
+      border-radius: 3px;
+      border: none;
+      height: 50px;
+      width: 160px;
+      margin-left: 20px;
+      color: white;
+      margin-top: 35px;
+  }
+  
+  /* Home2 */
+  
+  .home2{
+      height: 100vh;
+      width: 100vw;
+  }
+  .mid{
+      display: flex;
+  }
+  .group1{
+      width: 800px;
+  }
+  .text3{
+      font-size: 60px;
+      position: absolute;
+      top: 135%;
+      left: 10%;
+  }
+  .text4{
+      position: absolute;
+      top: 152%;
+      left: 10%
+  }
+  .text5{
+      color: #4DA0FD;
+      position: absolute;
+      top: 165%;
+      left: 10%;
+      text-decoration: underline;
+  }
+  .svg{
+      background-image: url(../assets/->.svg);
+      height: 10px;
+      width: 14px;
+      position: absolute;
+      top: 164%;
+      left: 15%;
+      background-size: cover;
+  }
+  .back{
+      background-image: url(../assets/home2.png);
+      height: 90vh;
+      width: 700px;
+      margin-top: 60px;
+      margin-left: 180px;
+      background-size: cover;
+  }
+  .calendar{
+      background-image: url(../assets/calendar.svg);
+      height: 110px;
+      width: 110px;
+      position:absolute;
+      top: 106%;
+      left: 80%;
+      background-size: cover;
+  }
+  .pop{
+      height: 170px;
+      width: 330px;
+      position:absolute;
+      top: 114%;
+      left: 53%;
+      background-size: cover;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 5px 5px 8px 5px #c8c7c7;
+  }
+  .notf{
+      background-image: url(../assets/notf.svg);
+      top: 170%;
+      left: 56%;
+      height: 190px;
+      width: 160px;
+      background-size: cover;
+      position:absolute;
+  }
+  .clock{
+      color: #868686;
+      font-style: normal;
+      font-size: 10px;
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+  .text6{
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+  .icons{
+      display: flex;
+  }
+  .group3{
+      gap: 10px;
+      margin-top: 30px;
+      display: flex;
+  }
+  .sent{
+      background-image: url(../assets/sent.svg);
+      height: 25px;
+      width: 25px;
+      background-size: cover;
+      margin-top: 25px;
+      margin-left: 20px;
+  }
+  .am{
+      background-image: url(../assets/am.svg);
+      height: 25px;
+      width: 25px;
+      background-size: cover;
+      margin-top: 25px;
+  }
+  .es{
+      background-image: url(../assets/es.svg);
+      height: 25px;
+      width: 25px;
+      background-size: cover;
+      margin-top: 25px;
+  }
+  .group4{
+      margin-top: 65px;
+      margin-left: 100px;
+      display: flex;
+      gap: 3px;
+  }
+  .tag{
+      background-image: url(../assets/tag.svg);
+      width: 5px;
+      height: 12px;
+      background-size: cover;
+  }
+  .text7{
+      color: #868686;
+      font-size: 10px;
+  }
+  .page3{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  .group5{
+    background-image: url(../assets/home3.png);
+    height: 840px;
+    width: 800px;
+    background-size: cover;
+    margin-top: 40px;
+  }
+  .smallpop{
+    background-color: white;
+    height: 200px;
+    width: 380px;
+    border-radius:10px ;
+    margin-left: 380px;
+    margin-top: 90px;
+  }
+  .text8{
+    font-size: 25px;
+    position: absolute;
+    top: 217%;
+    left: 25%;
+    font-size: 25px;
+  }
+  .smallpop2{
+    background-color: white;
+    height: 160px;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 380px;
+    margin-top: 40px;
+  }
+  .group6{
+    margin-left: 200px;
+  }
+  .text9{
+    font-size: 65px;
+    margin-top: 160px;
+  }
+  .text10{
+    font-size: 25px;
+    margin-top: 60px;
+  }
+  .text11{
+    text-decoration: underline;
+    color: #4DA0FD;
+    font-size: 25px ;
+  }
+  .text15{
+    background-image: url(../assets/->.svg);
+    height: 10px;
+    width: 14px;
+    background-size: cover;
+  }
+  .logos{
+    display: flex;
+  }
+  .sent2{
+    background-image: url(../assets/sent.svg);
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    margin-top: 130px;
+    margin-left: 40px;
+  }
+  .la{
+    background-image: url(../assets/la.svg);
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 130px;
+  }
+  .am2{
+    background-image: url(../assets/am.svg);
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 130px;
+  }
+  .fs{
+    background-image: url(../assets/fs.svg);
+    height: 45px;
+    width: 48px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-top: 130px;
+  }
+  .logos2{
+    display: flex;
+    position: absolute;
+    top: 249%;
+    left: 23%;
+  }
+  .sent3{
+    background-image: url(../assets/sent.svg);
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .am3{
+    background-image: url(../assets/am.svg);
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    margin-right: 10px;
+  }
+  .es2{
+    background-image: url(../assets/es.svg);
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+    margin-right: 10px;
+  }
+  .tag2{
+    background-image: url(../assets/tag.svg);
+    width: 10px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .text12{
+    color: #868686;
+    margin-top: 10px;
+  }
+  .text14{
+    font-size: 25px;
+    position: absolute;
+    top: 242%;
+    left: 24%;
+  }
+  .text13{
+    color: #868686;
+    position: absolute;
+    top: 239%;
+    left: 24%;
+  }
+  .lol{
+    display: flex;
+    margin-top: 60px;
+  }
+  .page4{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  .left1{
+    margin-top: 220px;
+    margin-left: 100px;
+  }
+  .lefttext1{
+    font-size: 65px;
+  }
+  .lefttext2{
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  .lefttext3{
+    text-decoration: underline;
+    color: #4DA0FD;
+    font-size: 25px;
+  }
+  .right1{
+    background-image: url(../assets/home4.png);
+    height: 750px;
+    width: 730px;
+    background-size: cover;
+    margin-left: 295px;
+    margin-top: 110px;
+  }
+  .orgcalendar{
+    width: 371px;
+    height: 404px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 90px;
+  }
+  .calgr1{
+    display: flex;
+    margin-top: 40px;
+    color: #808080;
+    gap: 25px;
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  .calgr3{
+    display: flex;
+    padding-top: 30px;
+    color: #989898;
+    gap: 33px;
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  .V{
+    background-image: url(../assets/<.svg);
+    height: 24px;
+    width: 13px;
+    background-size: cover;
+  }
+  .calrtext{
+    margin-left: 40px;
+  }
+  .V2{
+    background-image: url(../assets/>.svg);
+    background-size: cover;
+    height: 24px;
+    width: 13px;
+    margin-left: 40px;
+  }
+  .O{
+    border-radius: 90px;
+    background-color: #4DA1FF;
+    border: none;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 335%;
+    left: 78%;
+  }
+  .tagnumber{
+    background-color: rgba(77, 161, 255, 0.1);
+    display: flex;
+    align-items: center;
+
+  }
+  .calgr2{
+    display: flex;
+    padding-top: 30px;
+    color: #989898;
+    gap: 37px;
+    font-size: 15px;
+    margin-left: 45px;
+  }
+  .calgr4{
+    display: flex;
+    padding-top: 30px;
+    color: #989898;
+    gap: 29px;
+    font-size: 15px;
+    margin-left: 45px;
+  }
+  .calgr5{
+    display: flex;
+    padding-top: 30px;
+    color: #989898;
+    gap: 29px;
+    font-size: 15px;
+    margin-left: 45px;
+  }
+  .calgr6{
+    display: flex;
+    padding-top: 30px;
+    color: #989898;
+    gap: 30px;
+    font-size: 15px;
+    margin-left: 45px;
+  }
+  .page5{
+    height: 100vh;
+    width: 100vw;
+  }
+  .what{
+    font-size: 40px;
+    display: flex;
+    margin-left: 660px;
+    padding-top: 30px;
+  }
+  .persons{
+    display: flex;
+    padding-top: 100px;
+    margin-left: 70px;
+    gap: 50px;
+  }
+  .person1{
+    height:350px;
+    width: 355px;
+    box-shadow: 5px 5px 8px 5px #c8c7c7;
+    border-radius: 12px;
+  }
+  .stars{
+    display: flex;
+    margin-left:20px ;
+    margin-top: 30px;
+  }
+  .star{
+    background-image: url(../assets/star.svg);
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+  }
+  .profile{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 50px;
+  }
+  .pro{
+    background-image: url(../assets/Ellipse.png);
+    border-radius: 90px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+  }
+  .name{
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  .per1text{
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .pro2{
+    background-image: url(../assets/Ellipse\ \(1\).png);
+    border-radius: 90px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+  }
+  .pro3{
+    background-image: url(../assets/Ellipse\ \(2\).png);
+    border-radius: 90px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+  }
+  .pro4{
+    background-image: url(../assets/Ellipse\ \(3\).png);
+    border-radius: 90px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+  }
+  .information{
+    width: 100vw;
+    background-color: #252B3B;
+    height: 360px;
+    margin-top: 100px;
+    color: white;
+  }
+  .inf1{
+    display: flex;
+  }
+  .inf2{
+    display: flex;
+  }
+  .team2{
+    background-image: url(../assets/teamLogo.svg);
+    width: 85px;
+    height: 50px;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+    margin-left: 100px;
+  }
+  .inftext1{
+    margin-left: 290px;
+    margin-top: 45px;
+  }
+  .inftext2{
+    margin-left: 150px;
+    margin-top: 45px;
+  }
+  .inftext3{
+    margin-left: 150px;
+    margin-top: 45px;
+  }
+  .inftext4{
+    margin-left: 190px;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .ig{
+    background-image: url(../assets/ig.svg);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+  .emailbt{
+    display: flex;
+    height: 55px;
+    width: 350px;
+    background-color: white;
+    color: #4DA0FD;;
+    margin-left: 70px;
+  }
+  .tmdg{
+    height: 20px;
+    width: 25px;
+    background-image: url(../assets/gj>.svg);
+    background-size: cover;
+    margin-left: 230px;
+    margin-top: 15px;
+  }
+  .inftext9{
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+  .inftext5{
+    margin-top: 15px;
+  }
+  .inftext6{
+    margin-top: 15px;
+    margin-left: 260px;
+  }
+  .inftext7{
+    margin-top: 15px;
+    margin-left: 160px;
+  }
+  .inftext8{
+    margin-top: 15px;
+    margin-left: 160px;
+  }

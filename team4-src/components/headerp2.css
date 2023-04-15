@@ -1,0 +1,34 @@
+.headerp2 {
+    display: flex;  
+    justify-content: space-between;
+    width: 100vw;
+    height: 8vh;
+    align-items: center;
+    cursor: pointer;
+ 
+}
+.logop2 {
+    width: 6vw;
+    height: 3vh;
+    display: flex;
+    margin-left: 5vw;
+}
+
+.headerrightp2 {
+    display: flex;
+    color: #6D7D8B;
+    margin-right: 5vw;
+    align-items: center;
+    gap: 1vw;
+}
+.headerrightp2 div {
+    width: 7vw;
+    height: 5vh;
+    background: rgba(77, 160, 253, 0.2);
+    border: 2px solid rgba(77, 160, 253, 1.5);
+    border-radius: 4px;
+    color: #4DA0FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
